@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Reubenz Marallag Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav>
+    <div class="nav-links" id="navLinks">
+      <a href="#landing" class="nav-link">Landing</a>
+      <a href="#about" class="nav-link">About Me</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#projects" class="nav-link">My Achievements</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </div>
+    <button id="toggleBtn">Toggle Mode</button>
+  </nav>
+
+  <section id="landing" class="fade-in">
+    <div class="section-content">
+      <h1>Hello, I'm Reubenz Marallag!</h1>
+      <p>Welcome to my personal portfolio website.</p>
+    </div>
+  </section>
+
+  <section id="about" class="fade-in">
+    <div class="section-content">
+      <h2>About Me</h2>
+      <p>I'm a passionate web developer with a strong enthusiasm for learning and creating engaging websites. I enjoy exploring new technologies and continuously improving my coding skills to build better, more dynamic web experiences.
+</p>
+    </div>
+  </section>
+
+  <section id="skills" class="fade-in">
+    <div class="section-content">
+      <h2>Skills</h2>
+      <div class="skills">
+        <div class="skill-box">HTML</div>
+        <div class="skill-box">CSS</div>
+        <div class="skill-box">JavaScript</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="fade-in">
+    <div class="section-content">
+      <h2>My Achievements</h2>
+      <div class="projects">
+        <div class="project-box">
+          <h3>NC II Passer</h3>
+          <p>National Certificate II holder</p>
+        </div>
+        <div class="project-box">
+          <h3>DRRM Fire Training Certificate</h3>
+          <p>Completed official Disaster Risk Reduction and Management fire training.</p>
+        </div>
+        <div class="project-box">
+          <h3>Safety Prevention Month Certificate</h3>
+          <p>Awarded certificate for active participation in Safety Prevention Month activities.</p>
+        </div>
+        <div class="project-box">
+          <h3>DRRM Officer</h3>
+          <p>Designated DRRM Officer, promoting community resilience and disaster readiness.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="fade-in">
+    <div class="section-content">
+      <h2>Contact Me</h2>
+      <form id="contact-form">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" required placeholder="Your name" />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required placeholder="your@email.com" />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required placeholder="Your message here..."></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Reubenz's Portfolio</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
